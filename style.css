@@ -23,6 +23,24 @@ body {
 .container {
     margin-top: 50px;
 }
+/* Position the button in the top right corner */
+#top-right-button {
+    position: absolute;  /* Positioning method */
+    top: 20px;  /* Distance from the top */
+    right: 20px;  /* Distance from the right */
+    padding: 0;  /* Remove padding */
+    font-size: 16px;  /* Font size */
+    color: #007BFF;  /* Text color (like a link) */
+    background: none;  /* Remove background color */
+    border: none;  /* Remove border */
+    cursor: pointer;  /* Pointer cursor on hover */
+    text-decoration: underline;  /* Underline text to resemble a link */
+}
+
+/* Change text color on hover */
+#top-right-button:hover {
+    color: #0056b3;  /* Darker text color on hover */
+}
 
 h1 {
     font-size: 48px;
