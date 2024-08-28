@@ -1,12 +1,14 @@
-/* style.css */
+/* General Body Styling */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    animation: pulse 20s infinite; /* Background animation */
 }
 
+/* Animation for Background */
 @keyframes pulse {
   0%, 100% {
     background-color: #ecd4c4;
@@ -16,17 +18,14 @@ body {
   }
 }
 
-body {
-  animation: pulse 20s infinite;
-}
-
+/* Container Styling */
 .container {
     margin-top: 50px;
 }
 
 /* Button Styling */
 #top-right-button {
-    position: fixed;  /* Ensure the button is positioned relative to the viewport */
+    position: fixed;  /* Fixed position to the viewport */
     top: 20px;  /* Distance from the top */
     right: 20px;  /* Distance from the right */
     padding: 0;  /* Remove padding */
@@ -38,26 +37,22 @@ body {
     text-decoration: underline;  /* Underline text to resemble a link */
 }
 
-/* Change text color on hover */
+/* Hover Effect for Button */
 #top-right-button:hover {
     color: #0056b3;  /* Darker text color on hover */
 }
 
-}
-
-/* Change text color on hover */
-#top-right-button:hover {
-    color: #0056b3;  /* Darker text color on hover */
-}
-
+/* Header Styling */
 h1 {
     font-size: 48px;
     color: #333;
+    margin-top: 20px; /* Adds some margin at the top */
 }
 
+/* Image Styling */
 img {
-    width: 300px;
-    height: auto;
-    margin-top: 20px;
-    border-radius: 8px;
+    width: 300px;  /* Set the width of the image */
+    height: auto;  /* Maintains the aspect ratio */
+    margin-top: 20px;  /* Adds space above the image */
+    border-radius: 8px;  /* Rounded corners for the image */
 }
