@@ -7,6 +7,19 @@ body {
     padding: 0;
 }
 
+@keyframes pulse {
+  0%, 100% {
+    background-color: #f3eae5;
+  }
+  50% {
+    background-color: #fff7f2;
+  }
+}
+
+body {
+  animation: pulse 20s infinite;
+}
+
 .container {
     margin-top: 50px;
 }
